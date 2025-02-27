@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
          e.preventDefault();
          // Crea un enlace oculto para iniciar la descarga
          const enlaceCV = document.createElement("a");
-         enlaceCV.href = "https://drive.google.com/file/d/1A-xOCPoVkrRDVFkoYTzfihVz0TJi__ZI/view?usp=drive_link"; // Ruta a tu archivo PDF
+         enlaceCV.href = "https://drive.google.com/file/d/1Gt3DEV1ZJwT8Hh7X_IpK7NwG9pqJrdTo/view?usp=sharing"; // Ruta a tu archivo PDF
          enlaceCV.download = "CV_Cristian_Mosquera.pdf";
          console.log("si hay click")
          document.body.appendChild(enlaceCV);
